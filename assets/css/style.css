@@ -1,0 +1,59 @@
+/* HEADER IS COMPLETE */
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: plum; 
+    font-weight: bolder;
+    font-family: cursive;
+    text-decoration-line: underline;
+    /* "text-decoration-line" creates either an underline or overline depending on which youve chosen or both */
+
+    text-decoration-color: white;
+
+    /* "text-decoration-color" chooses the color for specified decoration */
+
+    text-decoration-style: dotted;
+
+    /* "text-decoration-style" creates a design for specified decoration */
+    background-color: black;
+}
+
+/* BODY IS COMPLETE */
+
+body {
+   text-align: center;
+   background-image: url("../images/trivia-background.jpg");
+}
+
+/* OL IS COMPLETE */
+
+ol {
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    list-style-position: inside;
+    
+
+    /* "list-style-position" allows the numbers to be connected to the text so that there isnt a massive gap in between the numbers and text. */
+}
+
+/* CONTAINER IS COMPLETE */
+
+.container {
+    padding: 75px;
+    background-color: plum;
+    margin-right: 40px;
+    margin-left: 40px;
+    position: relative;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (max-width: 960px) {
+    h1 {
+        margin: auto;
+        width: 30%;
+    }
+}
